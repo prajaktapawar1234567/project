@@ -3,7 +3,7 @@ import time
 import cv2
 import mediapipe as mp
 import math
-
+import streamlit as st
 
 class poseDetector():
     def __init__(self, mode=False, upBody=False, smooth=True,
